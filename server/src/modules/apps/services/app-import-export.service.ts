@@ -98,8 +98,9 @@ type NewRevampedComponent =
   | 'CurrencyInput'
   | 'PhoneInput'
   | 'IFrame'
-  | 'DropdownV2';
-  | 'TreeSelect'
+  | 'DropdownV2'
+  | 'FileButton'
+  | 'TreeSelect';
 
 const DefaultDataSourceNames: DefaultDataSourceName[] = [
   'restapidefault',
@@ -144,6 +145,7 @@ const NewRevampedComponents: NewRevampedComponent[] = [
   'IFrame',
   'DropdownV2',
   'TreeSelect',
+  'FileButton',
 ];
 
 const PartialRevampedComponents: PartialRevampedComponent[] = ['CodeEditor', 'PDF', 'Calendar', 'CustomComponent'];
